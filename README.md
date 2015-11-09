@@ -7,17 +7,20 @@ Native JS scroll event handlers.
 ```javascript
 'use strict';
 
-skully.onPageBottom(function() {
-  alert('bottom');
-});
-
+// Listens when scrolling to the top of the page.
 skully.onPageTop(function() {
   alert('top');
 });
 
+// Listens when scrolling past a position, 400 in this case.
 skully.onPagePosition(function() {
   alert('middle');
 }, 400);
+
+// Listens when scrolling to the bottom of the page.
+skully.onPageBottom(function() {
+  alert('bottom');
+});
 ```
 
 ### Generate Build
