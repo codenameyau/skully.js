@@ -1,6 +1,6 @@
 # skully.js
 
-Scroll event handlers in native js.
+Native JS scroll event handlers.
 
 ### Examples
 
@@ -18,4 +18,11 @@ skully.onPageTop(function() {
 skully.onPagePosition(function() {
   alert('middle');
 }, 400);
+```
+
+### Generate Build
+
+```bash
+# sudo npm install -g uglify-js
+uglifyjs --compress --mangle -o build/skully.min.js -- src/skully.js
 ```
