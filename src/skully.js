@@ -1,8 +1,7 @@
 /*!
  * skully.js (v1.0.0)
- *
- * Description:
- * Document scroll event handlers in native js.
+ * MIT LICENSE (c) 2015
+ * https://github.com/codenameyau/skully.js
  */
 'use strict';
 
